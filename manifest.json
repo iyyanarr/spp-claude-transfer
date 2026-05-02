@@ -1,0 +1,227 @@
+{
+  "created_at": "2026-05-02",
+  "created_on": "Mac Air alphaworkz dev machine",
+  "purpose": "Bootstrap SPP test machine Claude Code with full project context",
+  "files": {
+    "01_SETUP.md": {
+      "size": 7781,
+      "sha256_short": "e27ac87cf9e5a06c"
+    },
+    "CLAUDE_global_index.md": {
+      "size": 958,
+      "sha256_short": "d0298c1f68df3d8a"
+    },
+    "KICKOFF.md": {
+      "size": 9946,
+      "sha256_short": "8f3b5c14229a4f4c"
+    },
+    "TEST_RUNBOOK.md": {
+      "size": 9116,
+      "sha256_short": "00489c935aa6f8a8"
+    },
+    "docs/spp_process_docs/Blank_Bin_Inward_Entry_Documentation.md": {
+      "size": 6196,
+      "sha256_short": "52a34dae7d538496"
+    },
+    "docs/spp_process_docs/Blank_Bin_Issue_Documentation.md": {
+      "size": 5840,
+      "sha256_short": "d00e58588350f520"
+    },
+    "docs/spp_process_docs/Blanking_DC_Entry_Documentation.md": {
+      "size": 6554,
+      "sha256_short": "6845101c40c1d757"
+    },
+    "docs/spp_process_docs/Compound_Inspection_Documentation.md": {
+      "size": 8557,
+      "sha256_short": "931f59713cb9e799"
+    },
+    "docs/spp_process_docs/Cut_Bit_Transfer_Documentation.md": {
+      "size": 6496,
+      "sha256_short": "ba8b0e2ad8444485"
+    },
+    "docs/spp_process_docs/DOCTYPE_API_AUDIT_ENHANCED.md": {
+      "size": 36674,
+      "sha256_short": "251d334e90902d80"
+    },
+    "docs/spp_process_docs/Deflashing_Despatch_Entry_Documentation.md": {
+      "size": 6007,
+      "sha256_short": "ea8171c141b18f9d"
+    },
+    "docs/spp_process_docs/Deflashing_Receipt_Entry_Documentation.md": {
+      "size": 5498,
+      "sha256_short": "1e0cd8edbf7c71d0"
+    },
+    "docs/spp_process_docs/Delivery_Challan_Receipt_Documentation.md": {
+      "size": 13563,
+      "sha256_short": "de43671f54e3cc7c"
+    },
+    "docs/spp_process_docs/Despatch_To_U1_Entry_Documentation.md": {
+      "size": 5395,
+      "sha256_short": "5dd2042a42449276"
+    },
+    "docs/spp_process_docs/Inspection_Entry_Documentation.md": {
+      "size": 6706,
+      "sha256_short": "975da4c2ac4e7107"
+    },
+    "docs/spp_process_docs/Lot_Resource_Tagging_Documentation.md": {
+      "size": 3751,
+      "sha256_short": "0360dcbbd69a68f9"
+    },
+    "docs/spp_process_docs/Material_Transfer_Documentation.md": {
+      "size": 8670,
+      "sha256_short": "85b0e6bb9022187b"
+    },
+    "docs/spp_process_docs/Moulding_Production_Entry_Documentation.md": {
+      "size": 7462,
+      "sha256_short": "99003210f0927f0c"
+    },
+    "docs/spp_process_docs/Packing_Documentation.md": {
+      "size": 4813,
+      "sha256_short": "32bbcb565cd28e5f"
+    },
+    "docs/spp_process_docs/README.md": {
+      "size": 5560,
+      "sha256_short": "3f53bdcb8087a831"
+    },
+    "docs/spp_process_docs/Receive_Deflashing_Entry_Documentation.md": {
+      "size": 6122,
+      "sha256_short": "ec5934a5cf47c5e1"
+    },
+    "docs/spp_process_docs/Sub_Lot_Creation_Documentation.md": {
+      "size": 4005,
+      "sha256_short": "491c7d2ae28c04ab"
+    },
+    "docs/spp_process_docs/Work_Planning_Documentation.md": {
+      "size": 6737,
+      "sha256_short": "093d0127a07994f3"
+    },
+    "docs/spp_process_docs/_DOCTYPE_API_AUDIT_ENHANCED.md": {
+      "size": 6283,
+      "sha256_short": "be4b7c1026f767a1"
+    },
+    "docs/spp_process_docs/console_porting/00_PORTING_PLAN.md": {
+      "size": 7795,
+      "sha256_short": "12801753ab169e72"
+    },
+    "docs/spp_process_docs/console_porting/01_WAVE1.md": {
+      "size": 18747,
+      "sha256_short": "9a77c254dd3a63cd"
+    },
+    "docs/spp_process_docs/console_porting/02_WAVE2.md": {
+      "size": 11237,
+      "sha256_short": "3da1dd53ac12a25b"
+    },
+    "docs/spp_process_docs/console_porting/03_WAVE3.md": {
+      "size": 15235,
+      "sha256_short": "360a8cdefc1099cc"
+    },
+    "docs/spp_process_docs/console_porting/04_WAVE4.md": {
+      "size": 10898,
+      "sha256_short": "722168955845a67d"
+    },
+    "docs/spp_process_docs/console_porting/05_WAVE5.md": {
+      "size": 21500,
+      "sha256_short": "19f6b286c1d1e312"
+    },
+    "docs/spp_process_docs/console_porting/06_INTEGRATION_TESTS_TODO.md": {
+      "size": 2857,
+      "sha256_short": "fcfe03de07d6c2f3"
+    },
+    "docs/spp_process_docs/detailed_process_flow.md": {
+      "size": 3671,
+      "sha256_short": "b272c97d57d7f115"
+    },
+    "docs/spp_process_docs/doctype_api_audit.md": {
+      "size": 16936,
+      "sha256_short": "df17e5ed36498a89"
+    },
+    "docs/spp_process_docs/factory_testing/00_TESTING_GUIDE.md": {
+      "size": 10265,
+      "sha256_short": "242cc58ce7b11b26"
+    },
+    "docs/spp_process_docs/factory_testing/_SHARED_setup.md": {
+      "size": 8446,
+      "sha256_short": "f337f2f4a12562ff"
+    },
+    "manifest.json": {
+      "size": 10195,
+      "sha256_short": "603e452a126da259"
+    },
+    "memory_global/MEMORY.md": {
+      "size": 722,
+      "sha256_short": "6814ab0e427344fb"
+    },
+    "memory_global/career.md": {
+      "size": 669,
+      "sha256_short": "48c6188806272ae0"
+    },
+    "memory_global/identity.md": {
+      "size": 885,
+      "sha256_short": "868d0bea8b30ea3d"
+    },
+    "memory_global/preferences.md": {
+      "size": 2908,
+      "sha256_short": "5e1545597800470b"
+    },
+    "memory_global/projects.md": {
+      "size": 3391,
+      "sha256_short": "dbc8b00417538cf6"
+    },
+    "memory_global/rules.md": {
+      "size": 2615,
+      "sha256_short": "d48459f3563c9a17"
+    },
+    "memory_project/MEMORY.md": {
+      "size": 1206,
+      "sha256_short": "ab527998fdce6ead"
+    },
+    "memory_project/feedback_pr_workflow.md": {
+      "size": 821,
+      "sha256_short": "32637244f961487d"
+    },
+    "memory_project/feedback_test_gate.md": {
+      "size": 1364,
+      "sha256_short": "b3fe1be34e307de5"
+    },
+    "memory_project/reference_graphify.md": {
+      "size": 2250,
+      "sha256_short": "b0ff73903342b414"
+    },
+    "rules/agents.md": {
+      "size": 1486,
+      "sha256_short": "46a1f64b8c91c992"
+    },
+    "rules/coding-style.md": {
+      "size": 1332,
+      "sha256_short": "cea2bd8733c5990d"
+    },
+    "rules/diff-discipline.md": {
+      "size": 2861,
+      "sha256_short": "817cec1da6f068a3"
+    },
+    "rules/git-workflow.md": {
+      "size": 1069,
+      "sha256_short": "d459aa29c87c357e"
+    },
+    "rules/hooks.md": {
+      "size": 1396,
+      "sha256_short": "d5203186da18a336"
+    },
+    "rules/patterns.md": {
+      "size": 1156,
+      "sha256_short": "59db6b8613765281"
+    },
+    "rules/performance.md": {
+      "size": 1214,
+      "sha256_short": "adb3d43274b3128f"
+    },
+    "rules/security.md": {
+      "size": 885,
+      "sha256_short": "e50b3e6cba92c526"
+    },
+    "rules/testing.md": {
+      "size": 804,
+      "sha256_short": "57165420d2e3ab45"
+    }
+  }
+}
