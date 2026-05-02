@@ -5,34 +5,41 @@ Estimated time: 5 minutes.
 
 ---
 
-## Step 1 — Transfer the bundle
+## Step 1 — Clone the bundle from GitHub
 
-On the **dev machine** (Mac Air, where you are now):
-
-```bash
-# Compress the bundle
-cd /Users/alphaworkz
-tar czf spp-claude-transfer.tar.gz spp-claude-transfer/
-
-# Check size (should be < 1 MB)
-ls -lh spp-claude-transfer.tar.gz
-```
-
-Then transfer to the test machine via your preferred method:
-
-- **scp:** `scp spp-claude-transfer.tar.gz user@test-machine:~/`
-- **USB drive / cloud sync:** copy `spp-claude-transfer.tar.gz` over
-- **Quick share** (if both on same Wi-Fi): `python3 -m http.server` on dev,
-  `curl http://<dev-ip>:8000/spp-claude-transfer.tar.gz` on test
+The transfer bundle lives at https://github.com/iyyanarr/spp-claude-transfer
+(private repo — make sure you're signed in to GitHub as a collaborator).
 
 On the **test machine**:
 
 ```bash
 cd ~
-tar xzf spp-claude-transfer.tar.gz
-ls spp-claude-transfer/
-# Should show: KICKOFF.md, 01_SETUP.md, TEST_RUNBOOK.md, memory_global/, memory_project/, rules/, docs/, CLAUDE_global_index.md
+git clone https://github.com/iyyanarr/spp-claude-transfer.git
+cd spp-claude-transfer
+ls
+# Should show: KICKOFF.md, 01_SETUP.md, TEST_RUNBOOK.md, README.md,
+#              memory_global/, memory_project/, rules/, docs/,
+#              CLAUDE_global_index.md, manifest.json
 ```
+
+> **GitHub auth:** if the clone prompts for credentials, use a Personal
+> Access Token (PAT) with repo scope. Generate at
+> https://github.com/settings/tokens → "Tokens (classic)" → Generate new
+> token. The PAT is your password when git asks.
+
+### Future updates
+
+When the dev machine pushes new context (refreshed memory, new test plans,
+updated docs), pull on the test machine:
+
+```bash
+cd ~/spp-claude-transfer
+git pull
+# Then re-run any setup steps below that touch changed files
+# (typically Step 2 + Step 3 if memory_global/ or memory_project/ changed)
+```
+
+The dev machine's update workflow is documented in `README.md`.
 
 ---
 
